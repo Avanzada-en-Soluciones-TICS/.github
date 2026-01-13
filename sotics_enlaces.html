@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SOTICS — Todos los enlaces</title>
+<meta name="description" content="SOTICS: La solución es primero. WhatsApp, Facebook, Instagram y sitio web.">
+<meta property="og:title" content="SOTICS — Todos los enlaces">
+<meta property="og:description" content="Contáctanos y conoce nuestras redes.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.sotics.com.mx/enlaces">
+<style>
+  :root {
+    --brand-bg: #0b2aa5; /* azul fuerte */
+    --brand-acc: #ffd200; /* amarillo */
+    --text-on: #ffffff;
+    --card: #0e34c0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background: linear-gradient(135deg, var(--brand-bg), #041a73);
+    color: var(--text-on);
+    display: grid; place-items: center; min-height: 100vh; padding: 24px;
+  }
+  .wrap {
+    width: 100%; max-width: 560px; background: rgba(14,52,192,0.25);
+    border: 1px solid rgba(255,255,255,0.2); border-radius: 20px; backdrop-filter: blur(6px);
+    padding: 28px; text-align: center;
+  }
+  .logo { width: 120px; height: 120px; border-radius: 16px; background:#002; display:inline-grid; place-items:center; margin: -68px auto 8px; border: 4px solid var(--brand-acc); overflow:hidden; }
+  .title { font-weight: 800; font-size: 1.6rem; margin: 8px 0 4px; letter-spacing: .3px; }
+  .subtitle { font-size: .95rem; opacity: .9; margin: 0 0 18px; }
+  .btns { display: grid; gap: 12px; margin: 16px 0 8px; }
+  .btn {
+    display: grid; grid-template-columns: 44px 1fr; align-items: center; gap: 12px;
+    padding: 14px 16px; border-radius: 14px; background: rgba(0,0,0,0.25);
+    color: var(--text-on); text-decoration: none; border: 1px solid rgba(255,255,255,.2);
+    transition: transform .08s ease, background .2s ease; box-shadow: 0 6px 20px rgba(0,0,0,.25);
+  }
+  .btn:hover { transform: translateY(-2px); background: rgba(0,0,0,0.35); }
+  .icon { width: 44px; height: 44px; border-radius: 12px; display:grid; place-items:center; font-weight:700; }
+  .wa  .icon { background: #25D366; }
+  .fb  .icon { background: #1877F2; }
+  .ig  .icon { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); }
+  .web .icon { background: var(--brand-acc); color: #112; }
+  .small { font-size: .8rem; opacity:.8; margin-top: 14px; }
+</style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="logo"><img src="logo.png" alt="SOTICS" style="width:100%;height:100%;object-fit:cover"></div>
+    <h1 class="title">SOTICS</h1>
+    <p class="subtitle">LA SOLUCIÓN ES PRIMERO</p>
+    <div class="btns">
+      <a class="btn wa" href="https://wa.me/526642057867" target="_blank" rel="noopener">
+        <div class="icon">WA</div>
+        <div>
+          <div style="font-weight:700">WhatsApp</div>
+          <div style="opacity:.8">Chatea con nosotros</div>
+        </div>
+      </a>
+      <a class="btn fb" href="https://www.facebook.com/people/Sotics/61574722662393/" target="_blank" rel="noopener">
+        <div class="icon">f</div>
+        <div>
+          <div style="font-weight:700">Facebook</div>
+          <div style="opacity:.8">Síguenos en Facebook</div>
+        </div>
+      </a>
+      <a class="btn ig" href="https://www.instagram.com/sotics.tj/?igsh=bms1MmgwbXo4MG8z&utm_source=qr" target="_blank" rel="noopener">
+        <div class="icon">IG</div>
+        <div>
+          <div style="font-weight:700">Instagram</div>
+          <div style="opacity:.8">@sotics.tj</div>
+        </div>
+      </a>
+      <a class="btn web" href="https://www.sotics.com.mx/" target="_blank" rel="noopener">
+        <div class="icon">www</div>
+        <div>
+          <div style="font-weight:700">Sitio Web</div>
+          <div style="opacity:.8">sotics.com.mx</div>
+        </div>
+      </a>
+    </div>
+    <div class="small">© 2026 SOTICS</div>
+  </main>
+</body>
+</html>
